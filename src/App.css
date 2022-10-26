@@ -1,3 +1,55 @@
+@font-face {
+  font-family: 'Nunito-Regular';
+  src: url('./assets/fonts/Nunito-Regular.eot');
+  src: url('./assets/fonts/Nunito-Regular.eot?#iefix') format('embedded-opentype'),
+    url('./assets/fonts/Nunito-Regular.svg#Nunito-Regular') format('svg'),
+    url('./assets/fonts/Nunito-Regular.ttf') format('truetype'),
+    url('./assets/fonts/Nunito-Regular.woff') format('woff'),
+    url('./assets/fonts/Nunito-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.MuiButtonBase-root.radio {
+  border-width: 1px;
+}
+
+.MuiButtonBase-root.radio.Mui-checked {
+  color: #00BDD3;
+}
+
+.red.MuiTooltip-tooltip {
+  font-size: 16px;
+  padding: 5px 10px;
+  background-color: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+body {
+  font: 400 16px/1.62em 'Nunito-Regular', sans-serif;
+  background-color: #E5E5E5;
+}
+
+
+.wrapper {
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .App {
   text-align: center;
 }
@@ -32,6 +84,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
